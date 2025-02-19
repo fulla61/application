@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nike Store</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/sneakers.png" alt="">
+                <div class="navItem">
+                    <div class="search"></div>
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">限定モデル開発！！</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">AIA FORCE</h3>
+            <h3 class="menuItem">JOPDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/air.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR FORCE</br>NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">11,500円</h2>
+                <a href="#product">
+                    <button class="buyButton">今すぐ購入</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordan.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR JORDAN</br>NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">15,000円</h2>
+                <a href="#product">
+                    <button class="buyButton">今すぐ購入</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/blazer.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br>NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">9,800円</h2>
+                <a href="#product">
+                    <button class="buyButton">今すぐ購入</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/crater.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CRATER</br>NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">13,500円</h2>
+                <a href="#product">
+                    <button class="buyButton">今すぐ購入</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE</br>NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">9,900円</h2>
+                <a href="#product">
+                    <button class="buyButton">今すぐ購入</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="features">
+            <img src="./img/shipping.png" alt="" class="features">
+            <span class="featureTitle">送料無料</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="features">
+            <img src="./img/shipping.png" alt="" class="features">
+            <span class="featureTitle">返品について</span>
+            <span class="featureDesc">14 日以内に返品していただくと返金いたします。</span>
+        </div>
+        <div class="features">
+            <img src="./img/shipping.png" alt="" class="features">
+            <span class="featureTitle">ギフトカード</span>
+            <span class="featureDesc">ギフトカードを購入し、クーポンコードを簡単に使用できます。</span>
+        </div>
+        <div class="features">
+            <img src="./img/shipping.png" alt="" class="features">
+            <span class="featureTitle">お問い合わせ</span>
+            <span class="featureDesc">電子メールとサポート システムを通じて連絡できます。</span>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img src="./img/air.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productTitle">11,500円</h2>
+            <p class="productDesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Aliats assumende
+                dolorum
+                doloremque sapiente aliquid aperiam.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="size">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">今すぐ購入</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTite">Personal Information</h1>
+            <label>氏名</label>
+            <input type="text" placeholder="Your name" class="payInput">
+            <label>電話番号</label>
+            <input type="text" placeholder="090000000" class="payInput">
+            <label>ご住所</label>
+            <input type="text" placeholder="東京都○○市1-1-1" class="payInput">
+            <h1 class="payTite">クレジットカード情報</h1>
+            <div class="cardInfo">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">決済する</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryIitem">Be Yourself!</h1>
+            <img src="https://image.pexeps.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryIitem">This is the First Day of Your New Life</h1>
+            <img src="https://image.pexeps.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryIitem">Just Do it!</h1>
+            <img src="https://image.pexeps.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+        <div class="newSeason">
+            <div class="nsItem">
+                <img src="https://image.pexeps.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="" class="galleryImg">
+            </div>
+            <div class="nsItem">
+                <h3 class="nsTitleSm">冬の新着商品</h3>
+                <h1 class="nsTitle">New Season</h1>
+                <h1 class="nsTitle">New Collection</h1>
+                <a href="#nav">
+                    <button class="nsButton">CHOOSE YOUR STYLE</button>
+                </a>
+            </div>
+            <div class="nsItem">
+                <img src="https://image.pexeps.com/photos/785665/pexels-photo-785665.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="" class="nsImg">
+            </div>
+        </div>
+        <footer>
+            <div class="footerLeft">
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">About Us</h1>
+                    <ul class="fList">
+                        <li class="fListItem">Company</li>
+                        <li class="fListItem">Contact</li>
+                        <li class="fListItem">Careers</li>
+                        <li class="fListItem">Affiliates</li>
+                        <li class="fListItem">Stores</li>
+                    </ul>
+                </div>
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">Useful Links</h1>
+                    <ul class="fList">
+                        <li class="fListItem">Support</li>
+                        <li class="fListItem">Refund</li>
+                        <li class="fListItem">FAQ</li>
+                        <li class="fListItem">Feedback</li>
+                        <li class="fListItem">Stories</li>
+                    </ul>
+                </div>
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">Products</h1>
+                    <ul class="fList">
+                        <li class="fListItem">Air Force</li>
+                        <li class="fListItem">Air Jordan</li>
+                        <li class="fListItem">Blazer</li>
+                        <li class="fListItem">Creter</li>
+                        <li class="fListItem">Hippie</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerRight">
+                <div class="footerRightMenu">
+                    <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                    <div class="fMail">
+                        <input type="text" placeholder="your@email.com" class="fInput">
+                        <button class="fButton">Join!</button>
+                    </div>
+                </div>
+                <div class="footerRightMenu">
+                    <h1 class="fMenuTitle">Follow Us</h1>
+                    <div class="fIcons">
+                        <img src="./img/facebook.png" alt="" class="fIcon">
+                        <img src="./img/twitter.png" alt="" class="fIcon">
+                        <img src="./img/instagram.png" alt="" class="fIcon">
+                        <img src="./img/whatsapp.png" alt="" class="fIcon">
+                    </div>
+                </div>
+                <div class="footerRightMenu">
+                    <span class="copyright">@Nissho Dev. All rights resereved. 2023.</span>
+                </div>
+            </div>
+        </footer>
+        <script src="./app.js"></script>
+
+</body>
+
+</html>
